@@ -1,4 +1,4 @@
-// ID: b6b6d806968d0e706ed1518275212eb1
+// ID: 678-146-2727
 /**
  *
  * Search Query Mining With Quality Score Tool
@@ -14,8 +14,8 @@ function main() {
     //////////////////////////////////////////////////////////////////////////////
     // Options
 
-    var startDate = "2018-07-01";
-    var endDate = "2018-07-30";
+    var startDate = "2021-09-15";
+    var endDate = "2021-10-15";
     // The start and end date of the date range for your search query data
     // Format is yyyy-mm-dd
 
@@ -43,11 +43,11 @@ function main() {
     var checkNegatives = true;
     // Set this to true to remove queries that would be excluded by your negative keywords.
 
-    var spreadsheetUrl = "https://docs.google.com/YOUR-SPREADSHEET-URL-HERE";
+    var spreadsheetUrl = "https://docs.google.com/spreadsheets/d/1slJvrU2PtqZCnQcC27bsv_xP53Rk0u4rO7svL1NUK1g/edit#gid=0";
     // The URL of the Google Doc the results will be put into.
 
-    var minNGramLength = 1;
-    var maxNGramLength = 2;
+    var minNGramLength = 3;
+    var maxNGramLength = 6;
     // The word length of phrases to be checked.
     // For example if minNGramLength is 1 and maxNGramLength is 3,
     // phrases made of 1, 2 and 3 words will be checked.
